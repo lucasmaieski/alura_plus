@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__botao {
+    background-color: #167bf7;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: #c0c0c0;
+}
